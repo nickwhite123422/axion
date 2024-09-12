@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axium Gambling Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        aside {
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 300px;
+            background-color: #1f1f1f;
+            height: 100%;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label, input, button {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Axium</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Axium</h2>
+            <p>Your ultimate gambling platform.</p>
+        </section>
+        <section id="info">
+            <h2>Information</h2>
+            <p>Details about our platform.</p>
+        </section>
+        <section id="games">
+            <h2>Games</h2>
+            <p>Explore our exciting games.</p>
+        </section>
+    </main>
+    <aside>
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <form>
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username">
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password">
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </aside>
+    <footer>
+        <p>© 2024 Axium. All rights reserved.</p>
+    </footer>
+</body>
+</html>
